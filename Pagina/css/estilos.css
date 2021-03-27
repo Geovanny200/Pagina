@@ -1,0 +1,279 @@
+:root{
+    --celeste: #1B7CB4;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 0%;
+}
+
+header{
+    background: var(--celeste);
+    color: white;
+    
+}
+
+    .header a{
+    color: white;
+    text-decoration: none;
+    }
+
+.article{
+    background-color: #809fd87a;
+    color: black;
+}
+
+h1{
+    line-height: 1.3em;
+    font-size: 2.5rem;
+    font-family: "Bodoni MT Black";
+}
+
+h2{
+    line-height: 1.3em;
+    font-size: 1.8rem;
+    font-family: "Bodoni MT Black";
+}
+
+p{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegacion ul li {
+    display: inline-block;
+}
+.navegacion ul li a{
+    display: block;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+    font-size: 1.3rem;
+} 
+.navegacion ul li a:hover{
+    background: #b7ebf1;
+}
+
+.footer{
+    background: #DCDCDC;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+    .footer p{
+        text-align: center;
+    }
+
+.introduccion{
+    padding: 40px;
+    color: black;
+}
+    .introduccion p{
+        text-align: justify;
+    }
+
+.speed{
+    padding: 100px;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+}
+    .speed img{
+        float: left;
+    }
+
+    .speed h1{
+        text-align: center;
+    }
+
+.anotar{
+    padding: 120px;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+}
+    .anotar li{
+        text-align: left;
+    }
+
+
+
+img{
+    margin: 15px;
+    border-radius: 0.8rem;
+}
+
+@media (max-width: 800px){
+
+ .speed{
+     padding: 50px;
+ }
+    .speed p{
+    font-size: 1rem;
+    }
+
+ .anotar{
+     padding: 60px;
+ }
+    .anotar p{
+    font-size: 1rem;
+    }
+
+h2{
+    line-height: 1.3em;
+    font-size: 1.5rem;
+    font-family: "Bodoni MT Black";
+}
+
+.navegacion{
+    width: 100%;
+    margin-top: 1rem;
+}
+    .navegacion ul li {
+        display: block;
+    }
+    .navegacion ul li a{
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.3s linear;
+        border-radius: 5px;
+        text-align: center;
+    } 
+    .navegacion ul li a:hover{
+        background: #b7ebf1;
+    }
+}
+
+.logo{
+    text-align: center;
+}
+
+.metodos{
+    padding: 0 80px ;
+    font-size: 1rem;
+}
+    .metodos img{
+        float: left;
+        margin: 25px;
+    }
+    .metodos a{
+        text-decoration: none;
+    }
+
+
+.algoritmos{
+    color: black;
+    padding: 25px;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.3rem;
+}
+    .algoritmos img{
+        margin: 0 40px;
+    }
+
+.pdf{
+    padding: 0 65px ;
+    font-size: 1rem;
+}
+    .pdf img{
+        float: left;
+        margin: 40px;
+    }
+    .pdf a{
+        text-decoration: none;
+        color: black;
+    }
+
+.shova, .ortega, .cll, .f2l, .oll, .pll, .oll-oh, .pll-oh, .aristas, .paridad, .paridad-pll, 
+.centros-5x5, .aristas-5x5{
+    color: black;
+    padding: 25px;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.3rem;
+}
+
+.shova img{
+    float: right;
+    margin: 30px 40px;
+}
+
+.ortega a, .cll a, .f2l a, .oll a, .pll a, .oll-oh a, .pll-oh a, .aristas a, .paridad a, 
+.paridad-pll a, .centros-5x5 a, .aristas-5x5 a{
+    color: black;
+}
+    .ortega img{
+        float: left;
+        margin: 10px 35px;
+    }
+
+    .cll img{
+        float: right;
+        margin: 10px 35px;
+    }
+
+    .f2l img{
+        float: left;
+        margin: 20px 35px;
+    }
+
+    .oll img{
+        float: right;
+        margin: 12px 25px;
+    }
+
+    .pll img{
+        float: left;
+        margin: 10px 25px;
+    }
+
+    .oll-oh img{
+        float: left;
+        margin: 10px 25px;
+    }
+
+    .pll-oh img{
+        float: right;
+        margin: 10px 25px;
+    }
+
+    .aristas img{
+        float: left;
+        margin: 10px 25px;
+    }
+
+    .paridad img{
+        float: right;
+        margin: 15px 25px;
+    }
+
+    .paridad-pll img{
+        float: left;
+        margin: 8px 25px;
+    }
+
+    .centros-5x5 img{
+        float: left;
+        margin: 8px 25px;
+    }
+
+    .aristas-5x5 img{
+        float: right;
+        margin: 8px 25px;
+    }
+    
